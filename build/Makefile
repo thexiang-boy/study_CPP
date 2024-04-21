@@ -511,48 +511,24 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named main1
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+main1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main1
+.PHONY : main1
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-source/Lib/swap.o: source/Lib/swap.cpp.o
-.PHONY : source/Lib/swap.o
-
-# target to build an object file
-source/Lib/swap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/Lib/swap.cpp.o
-.PHONY : source/Lib/swap.cpp.o
-
-source/Lib/swap.i: source/Lib/swap.cpp.i
-.PHONY : source/Lib/swap.i
-
-# target to preprocess a source file
-source/Lib/swap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/Lib/swap.cpp.i
-.PHONY : source/Lib/swap.cpp.i
-
-source/Lib/swap.s: source/Lib/swap.cpp.s
-.PHONY : source/Lib/swap.s
-
-# target to generate assembly for a file
-source/Lib/swap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/Lib/swap.cpp.s
-.PHONY : source/Lib/swap.cpp.s
+main1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/build
+.PHONY : main1/fast
 
 source/main.o: source/main.cpp.o
 .PHONY : source/main.o
 
 # target to build an object file
 source/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/source/main.cpp.o
 .PHONY : source/main.cpp.o
 
 source/main.i: source/main.cpp.i
@@ -560,7 +536,7 @@ source/main.i: source/main.cpp.i
 
 # target to preprocess a source file
 source/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/source/main.cpp.i
 .PHONY : source/main.cpp.i
 
 source/main.s: source/main.cpp.s
@@ -568,8 +544,32 @@ source/main.s: source/main.cpp.s
 
 # target to generate assembly for a file
 source/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
+
+source/swap.o: source/swap.cpp.o
+.PHONY : source/swap.o
+
+# target to build an object file
+source/swap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/source/swap.cpp.o
+.PHONY : source/swap.cpp.o
+
+source/swap.i: source/swap.cpp.i
+.PHONY : source/swap.i
+
+# target to preprocess a source file
+source/swap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/source/swap.cpp.i
+.PHONY : source/swap.cpp.i
+
+source/swap.s: source/swap.cpp.s
+.PHONY : source/swap.s
+
+# target to generate assembly for a file
+source/swap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/source/swap.cpp.s
+.PHONY : source/swap.cpp.s
 
 # Help Target
 help:
@@ -610,13 +610,13 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
-	@echo "... main"
-	@echo "... source/Lib/swap.o"
-	@echo "... source/Lib/swap.i"
-	@echo "... source/Lib/swap.s"
+	@echo "... main1"
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"
+	@echo "... source/swap.o"
+	@echo "... source/swap.i"
+	@echo "... source/swap.s"
 .PHONY : help
 
 

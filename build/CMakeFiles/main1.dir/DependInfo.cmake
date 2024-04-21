@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/MXF/study_CPP/source/main.cpp" "CMakeFiles/main.dir/source/main.cpp.o" "gcc" "CMakeFiles/main.dir/source/main.cpp.o.d"
-  "/mnt/d/MXF/study_CPP/source/swap.cpp" "CMakeFiles/main.dir/source/swap.cpp.o" "gcc" "CMakeFiles/main.dir/source/swap.cpp.o.d"
+  "/mnt/d/MXF/study_CPP/source/main.cpp" "CMakeFiles/main1.dir/source/main.cpp.o" "gcc" "CMakeFiles/main1.dir/source/main.cpp.o.d"
+  "/mnt/d/MXF/study_CPP/source/swap.cpp" "CMakeFiles/main1.dir/source/swap.cpp.o" "gcc" "CMakeFiles/main1.dir/source/swap.cpp.o.d"
   )
 
 # Targets to which this target links.

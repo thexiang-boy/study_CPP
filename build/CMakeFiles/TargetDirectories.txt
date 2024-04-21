@@ -26,7 +26,7 @@
 /mnt/d/MXF/study_CPP/build/CMakeFiles/ContinuousCoverage.dir
 /mnt/d/MXF/study_CPP/build/CMakeFiles/ContinuousMemCheck.dir
 /mnt/d/MXF/study_CPP/build/CMakeFiles/ContinuousSubmit.dir
-/mnt/d/MXF/study_CPP/build/CMakeFiles/main.dir
+/mnt/d/MXF/study_CPP/build/CMakeFiles/main1.dir
 /mnt/d/MXF/study_CPP/build/CMakeFiles/package.dir
 /mnt/d/MXF/study_CPP/build/CMakeFiles/package_source.dir
 /mnt/d/MXF/study_CPP/build/CMakeFiles/test.dir

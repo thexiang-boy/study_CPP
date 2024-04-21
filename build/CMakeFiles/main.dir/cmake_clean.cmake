@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/source/Lib/swap.cpp.o"
-  "CMakeFiles/main.dir/source/Lib/swap.cpp.o.d"
   "CMakeFiles/main.dir/source/main.cpp.o"
   "CMakeFiles/main.dir/source/main.cpp.o.d"
+  "CMakeFiles/main.dir/source/swap.cpp.o"
+  "CMakeFiles/main.dir/source/swap.cpp.o.d"
   "main"
   "main.pdb"
 )

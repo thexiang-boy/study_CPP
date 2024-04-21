@@ -1,6 +1,6 @@
 //main.cpp
 #include<iostream>
-#include "Lib/swap.h"
+#include "../include/swap.h"
 using namespace std;
 
 int main(int argc, char **argv)
