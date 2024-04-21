@@ -11,6 +11,7 @@ int main(int argc, char **argv)
    swap(v1,v2);
    cout << "After:" << v1 << ' ' << v2 << endl;
    cout << "cmake调试\n";
+   cout << "cmake调试\n";
    system("pwd");
    return 0;
 }
